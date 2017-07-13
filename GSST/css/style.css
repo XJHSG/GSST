@@ -1,0 +1,134 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+body{
+	padding:0;
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+	background:#fff;
+}
+body a{
+    transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+    text-decoration: none;
+}
+input[type="button"],input[type="submit"]{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;			   
+}	
+p{
+	margin:0;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+label{
+	margin:0;
+}
+/*-----start-Front----*/
+
+/* Entry */
+.entry {
+    color: #303D4A;
+    padding: 0 1em;
+    background-color: #FFF;
+}
+.entry a {
+    display: inline-block;
+    padding: 8px 8px;
+}
+.entry a:hover {
+    color: #1383BC;
+}
+/* END Entry */
+
+/* Name */
+.name {
+    height: 100px;
+    background-color: #303D4A;
+    padding: 0 12em;
+}
+.search {
+	position: relative;
+	padding: 8px 10px;
+	float: right;
+	border: 1px solid #dddddd;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	-ms-border-radius: 4px;
+	margin: 27px 20px 0 0;
+}
+.search input[type="text"] {
+	outline: none;
+	color: #b3b3b3;
+	background: none;
+	font-size: 16px;
+	border: none;
+	width: 84.33%;
+}
+.search input[type="submit"] {
+    background: url('../images/icon-search.png') no-repeat 0px 0px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    outline: none;
+    top: 2px;
+    right: 7px;
+    width: 35px;
+    height: 35px;
+}
+/* END Name */
+
+/* Wsmenu */
+.header_down {
+    background-color: #FFF;
+    padding-left: 14em;
+}
+.wsmenu-list {
+    text-align: left;
+    margin: 0 auto 0 auto;
+    width: 100%;
+    display: table;
+    padding: 0px;
+}
+.wsmenu-list > li {
+    text-align: center;
+    display: table-cell;
+    display: inline-block;
+    margin: 10px 0;
+    float: left; 
+}
+.wsmenu-list > li > a{
+    color: #303D4A;
+    font-size: 16px;
+    padding: 12px 25px;
+}
+.wsmenu-list > li > a:hover {
+    background-color: #303D4A;
+    color: #FFF;
+}
+.wsmenu-list > .active > a{
+    background-color: #303D4A;
+    color: #FFF;
+}
+.animated-arrow {
+    position: absolute;
+    top: -53px;
+}
+
+/* END Wsmenu */

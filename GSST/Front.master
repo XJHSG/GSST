@@ -9,15 +9,17 @@
     <link href="css/fontawesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-    <link href="css/webslidemenu.css" rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link href="css/webslidemenu.css" rel='stylesheet' type='text/css' />       
     <script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/main.js"></script> 
+    <script type="text/javascript" src="js/jquery.flexisel.js"></script>
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 
-<body style="background:url('../images/bg.jpg') repeat;">
+<body style="background: #f1f1f1;">
     <form id="form1" runat="server">
     <!--start-header-section-->
 		<div class="header">
@@ -33,7 +35,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6">
-                        <div class="search">
+                        <div class="search" id="max-search">
 				            <input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search..';}"/>
 				            <input type="submit" value="" />				
 		                </div>
@@ -54,15 +56,13 @@
                         <ul class="mobile-sub wsmenu-list">
                             <li class="visible-xs">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="search" />
+                                    <input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search..';}"/>
+                                    <input type="submit" value="" />
                                 </div>
-                                <button type="submit" class="btn btn-search">
-                                    <i class="icon-search"></i>
-                                </button>
                             </li>
                             <li>
                                 <span class="wsmenu-click"></span>
-                                <a href="#"><i class="fa fa-home" style="font-size: 20px;"></i></a>
+                                <a href="index.aspx">网站首页</a>
                             </li>
                             <li>
                                 <span class="wsmenu-click"></span>
@@ -102,9 +102,12 @@
             </div>
         </div>
 
-    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">        
-    </asp:ContentPlaceHolder>
-    </form>
-   
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">        
+        </asp:ContentPlaceHolder>
+
+        <div class="footer text-center" style="margin-top: 4%;">
+            <p>copyring ⊙2017 教育技术与科学学院 all rights reserved | 京icp备 | 30466x号-x </p>
+        </div>      
+    </form>  
 </body>
 </html>

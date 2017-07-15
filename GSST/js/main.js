@@ -119,4 +119,6 @@ $(function() {
         $(this).siblings(".megamenu").slideToggle("slow");
         return false;
     });
+
 });
+

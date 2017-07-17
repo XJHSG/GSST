@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
    <!-- Slider -->
-    <section id="slider">
+    <section id="slider"> 
 		<div id="home-carousel" class="carousel slide" data-ride="carousel">			
 			<div class="carousel-inner">
 				<div class="item active" style="background-image: url(images/slider/1.jpg)">									

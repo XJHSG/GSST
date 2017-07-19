@@ -405,12 +405,9 @@ a:focus {outline:none !important;}
 .hometext{display:none;}
 .wsmenu-submenu .fa{ margin-right:7px;}
 
-@media only screen and (min-width:1024px) and (max-width:1280px) {
-.name {
-    padding: 0 8em;
-}
+@media only screen and (min-width:1366px) and (max-width:1440px) {
 .header_down {
-    padding-left: 8em;
+    padding-left: 11em;
 }
 .wsmenu-list li a {
     white-space: nowrap !important;
@@ -418,7 +415,43 @@ a:focus {outline:none !important;}
 }
 }
 
-@media only screen and (min-width:768px) and (max-width:1064px) {
+@media only screen and (min-width:1280px) and (max-width:1366px) {
+.header_down {
+    padding-left: 9em;
+}
+.wsmenu-list li a {
+    white-space: nowrap !important;
+    padding: 12px 20px;
+}
+}
+
+@media only screen and (min-width:1024px) and (max-width:1280px) {
+.name {
+    padding: 0 8em;
+}
+.header_down {
+    padding-left: 5em;
+}
+.wsmenu-list li a {
+    white-space: nowrap !important;
+    padding: 12px 15px;
+}
+}
+
+@media only screen and (min-width:880px) and (max-width:1024px) {
+.name {
+    padding: 0 5em;
+}
+.header_down {
+    padding-left: 1em;
+}
+.wsmenu-list li a {
+    white-space: nowrap !important;
+    padding: 12px 8px;
+}
+}
+
+@media only screen and (min-width:768px) and (max-width:880px) {
 /*.wsmenu-list > li > a > .fa { display:none !important;}*/
 .hometext{ display:block !important;}
 .wsmenu{ width:100%; font-size:13px !important; position:relative;}
@@ -427,11 +460,11 @@ a:focus {outline:none !important;}
     padding: 0 5em;
 }
 .header_down {
-    padding-left: 3em;
+    padding-left: 1em;
 }
 .wsmenu-list li a {
     white-space: nowrap !important;
-    padding: 12px 10px;
+    padding: 12px 5px;
 }
 }
 .megacollink {width:48%; margin:1% 1%;}
@@ -467,6 +500,18 @@ a:focus {outline:none !important;}
 }
 .logo img {
     width: 198px;
+}
+.section-wrap {
+    width: 90%;
+    margin: 0 auto;
+}
+.s-icon {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;  
+}
+.section-icon {
+    font-size: 50px;
 }
 .wsmenu-list > li:hover>a{background-color:rgba(0,0,0,0.08) !important; text-decoration:none;}
 .hometext{ display:inline-block !important; }
@@ -990,7 +1035,15 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#262626', endCo
     margin-left: -3em;
 }
 .animated-arrow {
-    padding: 110px 35px 16px 0px;
+    padding: 9px 35px 16px 0px;
+}
+.s-icon {
+    width: 90px;
+    height: 90px;
+    line-height: 90px;  
+}
+.section-icon {
+    font-size: 40px;
 }
 }
 @media screen and (max-width: 320px) {

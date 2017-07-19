@@ -166,7 +166,7 @@
 						                </div>
 						                <div class="cards-info">
 							                <h4>精品课程名字</h4>
-							                <span>精品课程详情精品课程详情精品课程详情精品课程详情精品课程详情精品课程</span>
+							                <span>精品课程详情精品课程详情精品课程详情精品课程详情精品课程详情精品课程详情</span>
                                             <div class="detail">
                                                 <div class="row">
                                                     <div class="col-xs-6">

@@ -67,18 +67,11 @@
 						                <div class="cards-info">
 							                <h4>精品课程名字</h4>
 							                <span>精品课程详情精品课程详情精品课程详情精品课程详情精品课程详情精品课程详情</span>
-                                            <div class="detail">
-                                                <div class="row">
-                                                    <div class="col-xs-6">
-                                                        <p class="text-left">2017-07-18</p>
-                                                    </div>
-                                                    <div class="col-xs-6">
-                                                        <p class="text-right">
-                                                            <i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
-                                                            <i class="fa fa-comment-o"></i>&nbsp;18
-                                                        </p>
-                                                    </div>
-                                                </div>
+                                            <div class="detail">                                               
+                                                <p class="text-left">
+                                                    <i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
+                                                    <i class="fa fa-comment"></i>&nbsp;18
+                                                </p>
                                             </div>
 						                </div>
 					                </div>
@@ -91,18 +84,11 @@
 						                <div class="cards-info">
 							                <h4>精品课程名字</h4>
 							                <span>精品课程详情精品课程详情精品课程详情精品课程详情精品课程详情精品课程详情</span>
-                                            <div class="detail">
-                                                <div class="row">
-                                                    <div class="col-xs-6">
-                                                        <p class="text-left">2017-07-18</p>
-                                                    </div>
-                                                    <div class="col-xs-6">
-                                                        <p class="text-right">
-                                                            <i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
-                                                            <i class="fa fa-comment-o"></i>&nbsp;18
-                                                        </p>
-                                                    </div>
-                                                </div>
+                                            <div class="detail">                                               
+                                                <p class="text-left">
+                                                    <i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
+                                                    <i class="fa fa-comment"></i>&nbsp;18
+                                                </p>
                                             </div>
 						                </div>
 					                </div>
@@ -115,18 +101,11 @@
 						                <div class="cards-info">
 							                <h4>精品课程名字</h4>
 							                <span>精品课程详情精品课程详情精品课程详情精品课程详情精品课程详情精品课程详情</span>
-                                            <div class="detail">
-                                                <div class="row">
-                                                    <div class="col-xs-6">
-                                                        <p class="text-left">2017-07-18</p>
-                                                    </div>
-                                                    <div class="col-xs-6">
-                                                        <p class="text-right">
-                                                            <i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
-                                                            <i class="fa fa-comment-o"></i>&nbsp;18
-                                                        </p>
-                                                    </div>
-                                                </div>
+                                            <div class="detail">                                               
+                                                <p class="text-left">
+                                                    <i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
+                                                    <i class="fa fa-comment"></i>&nbsp;18
+                                                </p>
                                             </div>
 						                </div>
 					                </div>
@@ -139,18 +118,11 @@
 						                <div class="cards-info">
 							                <h4>精品课程名字</h4>
 							                <span>精品课程详情精品课程详情精品课程详情精品课程详情精品课程详情精品课程详情</span>
-                                            <div class="detail">
-                                                <div class="row">
-                                                    <div class="col-xs-6">
-                                                        <p class="text-left">2017-07-18</p>
-                                                    </div>
-                                                    <div class="col-xs-6">
-                                                        <p class="text-right">
-                                                            <i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
-                                                            <i class="fa fa-comment-o"></i>&nbsp;18
-                                                        </p>
-                                                    </div>
-                                                </div>
+                                            <div class="detail">                                               
+                                                <p class="text-left">
+                                                    <i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
+                                                    <i class="fa fa-comment"></i>&nbsp;18
+                                                </p>
                                             </div>
 						                </div>
 					                </div>
@@ -166,18 +138,11 @@
 						                <div class="cards-info">
 							                <h4>精品课程名字</h4>
 							                <span>精品课程详情精品课程详情精品课程详情精品课程详情精品课程详情精品课程详情</span>
-                                            <div class="detail">
-                                                <div class="row">
-                                                    <div class="col-xs-6">
-                                                        <p class="text-left">2017-07-18</p>
-                                                    </div>
-                                                    <div class="col-xs-6">
-                                                        <p class="text-right">
-                                                            <i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
-                                                            <i class="fa fa-comment-o"></i>&nbsp;18
-                                                        </p>
-                                                    </div>
-                                                </div>
+                                            <div class="detail">                                               
+                                                <p class="text-left">
+                                                    <i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
+                                                    <i class="fa fa-comment"></i>&nbsp;18
+                                                </p>
                                             </div>
 						                </div>
 					                </div>
@@ -190,18 +155,11 @@
 						                <div class="cards-info">
 							                <h4>精品课程名字</h4>
 							                <span>精品课程详情精品课程详情精品课程详情精品课程详情精品课程详情精品课程详情</span>
-                                            <div class="detail">
-                                                <div class="row">
-                                                    <div class="col-xs-6">
-                                                        <p class="text-left">2017-07-18</p>
-                                                    </div>
-                                                    <div class="col-xs-6">
-                                                        <p class="text-right">
-                                                            <i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
-                                                            <i class="fa fa-comment-o"></i>&nbsp;18
-                                                        </p>
-                                                    </div>
-                                                </div>
+                                            <div class="detail">                                               
+                                                <p class="text-left">
+                                                    <i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
+                                                    <i class="fa fa-comment"></i>&nbsp;18
+                                                </p>
                                             </div>
 						                </div>
 					                </div>
@@ -214,18 +172,11 @@
 						                <div class="cards-info">
 							                <h4>精品课程名字</h4>
 							                <span>精品课程详情精品课程详情精品课程详情精品课程详情精品课程详情精品课程详情</span>
-                                            <div class="detail">
-                                                <div class="row">
-                                                    <div class="col-xs-6">
-                                                        <p class="text-left">2017-07-18</p>
-                                                    </div>
-                                                    <div class="col-xs-6">
-                                                        <p class="text-right">
-                                                            <i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
-                                                            <i class="fa fa-comment-o"></i>&nbsp;18
-                                                        </p>
-                                                    </div>
-                                                </div>
+                                            <div class="detail">                                               
+                                                <p class="text-left">
+                                                    <i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
+                                                    <i class="fa fa-comment"></i>&nbsp;18
+                                                </p>
                                             </div>
 						                </div>
 					                </div>
@@ -241,18 +192,11 @@
 						                <div class="cards-info">
 							                <h4>精品课程名字</h4>
 							                <span>精品课程详情精品课程详情精品课程详情精品课程详情精品课程详情精品课程详情</span>
-                                            <div class="detail">
-                                                <div class="row">
-                                                    <div class="col-xs-6">
-                                                        <p class="text-left">2017-07-18</p>
-                                                    </div>
-                                                    <div class="col-xs-6">
-                                                        <p class="text-right">
-                                                            <i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
-                                                            <i class="fa fa-comment-o"></i>&nbsp;18
-                                                        </p>
-                                                    </div>
-                                                </div>
+                                            <div class="detail">                                               
+                                                <p class="text-left">
+                                                    <i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
+                                                    <i class="fa fa-comment"></i>&nbsp;18
+                                                </p>
                                             </div>
 						                </div>
 					                </div>
@@ -265,18 +209,11 @@
 						                <div class="cards-info">
 							                <h4>精品课程名字</h4>
 							                <span>精品课程详情精品课程详情精品课程详情精品课程详情精品课程详情精品课程详情</span>
-                                            <div class="detail">
-                                                <div class="row">
-                                                    <div class="col-xs-6">
-                                                        <p class="text-left">2017-07-18</p>
-                                                    </div>
-                                                    <div class="col-xs-6">
-                                                        <p class="text-right">
-                                                            <i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
-                                                            <i class="fa fa-comment-o"></i>&nbsp;18
-                                                        </p>
-                                                    </div>
-                                                </div>
+                                            <div class="detail">                                               
+                                                <p class="text-left">
+                                                    <i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
+                                                    <i class="fa fa-comment"></i>&nbsp;18
+                                                </p>
                                             </div>
 						                </div>
 					                </div>

@@ -17,14 +17,13 @@
 				<a class="home-carousel-right" href="#home-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
 			</div>		
 		</div> <!--/#home-carousel--> 
-    </section> 
+    </section>  
     
     <div class="plate">
         <div class="wrap">
             <div class="headline">
-                <h2><span>智能推荐1</span></h2>
+                <h2><span>智能推荐</span></h2>
             </div>	
-
 			<ul class="vmcarousel-normal">
 	            <li><img class="img-responsive" src="images/img6.jpeg" alt="" /></li>
 	            <li><img class="img-responsive" src="images/img6.jpeg" alt="" /></li>
@@ -60,7 +59,7 @@
 			        <div class="row">
                         <div class="lists">
                             <div class="list">
-				                <div class="col-md-3 col-sm-6">
+				                <div class="col-md-3 col-sm-4">
 					                <div class="cards">
 						                <div class="cards-image">
 							                <img class="img-responsive" src="images/scene-t1.jpg" alt="" />
@@ -84,7 +83,7 @@
 						                </div>
 					                </div>
 				                </div>
-                                <div class="col-md-3 col-sm-6">
+                                <div class="col-md-3 col-sm-4">
 					                <div class="cards">
 						                <div class="cards-image">
 							                <img class="img-responsive" src="images/scene-t1.jpg" alt="" />
@@ -108,7 +107,7 @@
 						                </div>
 					                </div>
 				                </div>
-                                <div class="col-md-3 col-sm-6">
+                                <div class="col-md-3 col-sm-4">
 					                <div class="cards">
 						                <div class="cards-image">
 							                <img class="img-responsive" src="images/scene-t1.jpg" alt="" />
@@ -132,7 +131,7 @@
 						                </div>
 					                </div>
 				                </div>
-                                <div class="col-md-3 col-sm-6">
+                                <div class="col-md-3 col-sm-4">
 					                <div class="cards">
 						                <div class="cards-image">
 							                <img class="img-responsive" src="images/scene-t1.jpg" alt="" />
@@ -159,7 +158,7 @@
                             </div>
 
                             <div class="list" style="display: none;">
-                                <div class="col-md-3 col-sm-6">
+                                <div class="col-md-3 col-sm-4">
 					                <div class="cards">
 						                <div class="cards-image">
 							                <img class="img-responsive" src="images/scene-t1.jpg" alt="" />
@@ -183,7 +182,7 @@
 						                </div>
 					                </div>
 				                </div>
-                                <div class="col-md-3 col-sm-6">
+                                <div class="col-md-3 col-sm-4">
 					                <div class="cards">
 						                <div class="cards-image">
 							                <img class="img-responsive" src="images/scene-t1.jpg" alt="" />
@@ -207,7 +206,7 @@
 						                </div>
 					                </div>
 				                </div>
-                                <div class="col-md-3 col-sm-6">
+                                <div class="col-md-3 col-sm-4">
 					                <div class="cards">
 						                <div class="cards-image">
 							                <img class="img-responsive" src="images/scene-t1.jpg" alt="" />
@@ -234,7 +233,7 @@
                             </div>
 
                             <div class="list"  style="display: none;">
-				                <div class="col-md-3 col-sm-6">
+				                <div class="col-md-3 col-sm-4">
 					                <div class="cards">
 						                <div class="cards-image">
 							                <img class="img-responsive" src="images/scene-t1.jpg" alt="" />
@@ -258,7 +257,7 @@
 						                </div>
 					                </div>
 				                </div>
-                                <div class="col-md-3 col-sm-6">
+                                <div class="col-md-3 col-sm-4">
 					                <div class="cards">
 						                <div class="cards-image">
 							                <img class="img-responsive" src="images/scene-t1.jpg" alt="" />

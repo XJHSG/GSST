@@ -42,7 +42,7 @@ label{
 
 /* Entry */
 .entry {
-    color: #303D4A;
+    color: #161418;
     padding: 0 1em;
 }
 .entry a {
@@ -51,6 +51,7 @@ label{
 }
 .entry a:hover {
     color: #1383BC;
+    text-decoration: none;
 }
 /* END Entry */
 
@@ -70,7 +71,7 @@ label{
 	-moz-border-radius: 4px;
 	-o-border-radius: 4px;
 	-ms-border-radius: 4px;
-	margin: 28px 20px 0 0;
+	margin: 26px 20px 0 0;
 }
 .search input[type="text"] {
 	outline: none;
@@ -86,7 +87,7 @@ label{
     cursor: pointer;
     position: absolute;
     outline: none;
-    top: 3px;
+    top: 5px;
     right: 7px;
     width: 35px;
     height: 35px;
@@ -96,7 +97,7 @@ label{
 /* Wsmenu */
 .header_down {
     padding-left: 14em;
-    height: 42px;
+    height: 47px;
 }
 .wsmenu-list {
     text-align: left;
@@ -174,11 +175,6 @@ label{
     opacity: 0.8;
 }
 /* END Footer */
-
-/* 5. SLIDER */
-.vmcarousel-normal img {
-    text-align: right;
-}
 
 #home-carousel  .item {
 	background-position: center top;
@@ -358,7 +354,7 @@ label{
 }
 .headline {
     border-left: 3px solid #1383BC;
-    height: 35px;
+    height: 34px;
     margin-bottom: 50px;
 }
 /*.headline h2 {
@@ -431,6 +427,7 @@ label{
 .detail {
     margin-top: 30px;
     opacity: 0.8;
+    font-size: 12px;
 }
 /* Box-item */
 .box-item{

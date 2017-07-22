@@ -98,6 +98,7 @@ label{
 .header_down {
     padding-left: 14em;
     height: 47px;
+    border-bottom: 1px solid #f1f1f1;
 }
 .wsmenu-list {
     text-align: left;
@@ -298,7 +299,7 @@ label{
 	transition: all 0.5s ease-in-out 0.45s;
 }
 
-/* video */
+/* video list */
 .portfolio-wrapper .portfolio-items{
 	clear: both;
 }
@@ -722,5 +723,178 @@ p.section3-works {
 }
 
 /* END Section3 */
+
+/* To Top */
+.gototop.active {
+    opacity: 1;
+    visibility: visible;
+}
+.gototop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.gototop a {
+    width: 50px;
+    height: 50px;
+    display: table;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.gototop a:hover {  
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+}
+.gototop a i {
+    height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+}
+/* End */
+
+/* Video View */
+.video-view {
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+.video-part {
+    border: 1px solid #f1f1f1; 
+    margin-bottom: 30px;
+}
+.video-part video{
+    width: 100%; 
+    height: 480px;
+}
+.relate-video {
+    border: 1px solid #f1f1f1;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+.video-headline {
+    border-left: 3px solid #337AB7;
+    color: #161418;
+    height: 20px;
+    padding-left: 10px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.video-content {
+    margin-bottom: 35px;
+}
+.video-content img {
+    margin-bottom: 20px;
+}
+.content-left{
+    float:left;
+    width:160px;
+    margin-right: 12px;
+}
+.video-detals {
+    opacity: 0.8;
+    font-size: 12px;
+}
+.video-info {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.info-name {
+    color: #555555;
+    font-size: 20px;
+}
+.video-share {
+    padding: 15px 20px;
+    font-size: 15px;   
+}
+.video-share span {
+    padding-right: 4px;
+    color: #8E8E8E;
+}
+.video-share span a{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+    background-color: #9A9A9A;
+    display: inline-block;
+    border: 1px solid #9A9A9A;
+}
+#wechat a:hover {
+    background-color: #15C288;
+    border: 1px solid #15C288;
+}
+#weibo a:hover {
+    background-color: #D63230;
+    border: 1px solid #D63230;
+}
+#qq a:hover {
+    background-color: #1383BC;
+    border: 1px solid #1383BC;
+}
+.behave {
+    margin-right: 15px;      
+}
+.behave i {
+    padding: 0 2px;
+}
+#star {
+    margin-left: 40px;
+}
+#star i:hover{
+    color: #EC971F;  
+}
+#download i:hover{
+    color: #1383BC;  
+}
+.zan {
+    float: right;
+}
+#thumbs-up {
+    margin-right: 15px;
+}
+#thumbs-up i:hover{
+    color: #555;  
+}
+#thumbs-down i:hover{
+    color: #555;  
+}
+.video-comment {
+    font-size: 18px;
+    color: #555555;
+}
+.video-info textarea {
+    resize: none;
+    min-height: 100px;
+    margin: 1em 0;
+    width: 100%;
+}
+.video-rank span i{
+    color: #337AB7;
+    padding-right: 8px;
+}
+.video-rank div {
+    margin-bottom: 6px;
+}
+.video-rank span {
+    font-size: 15px;
+}
+.v-date {
+    color: #9A9A9A;
+    float: right; 
+}
+/* End */
 /*-- responsive-design starts-here --*/
 

@@ -644,7 +644,7 @@
     </div>
 
     <div class="plate">
-        <div class="section section1" style="background-image:url(/images/img1.jpeg);">
+        <div class="section section1" style="background-image:url(images/img1.jpeg);">
             <div class="section-icon">
                 <div class="section-wrap">
                     <div class="row">

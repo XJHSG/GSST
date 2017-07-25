@@ -436,6 +436,12 @@ a:focus {outline:none !important;}
     white-space: nowrap !important;
     padding: 12px 15px;
 }
+.portfolio-wrapper .portfolio-content{
+    height: 195px;
+}
+#first-img {
+    height: 400px;
+}
 }
 
 @media only screen and (min-width:992px) and (max-width:1024px) {

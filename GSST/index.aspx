@@ -4,38 +4,75 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
    <!-- Slider -->
-    <section id="slider"> 
-		<div id="home-carousel" class="carousel slide" data-ride="carousel">			
-			<div class="carousel-inner">
-				<div class="item active" style="background-image: url(images/slider/1.jpg)">									
-				</div>
-				<div class="item" style="background-image: url(images/slider/2.jpg)">								
-				</div>
-				<div class="item" style="background-image: url(images/slider/3.jpg)">								
-				</div>
-				<a class="home-carousel-left" href="#home-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-				<a class="home-carousel-right" href="#home-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
-			</div>		
-		</div> <!--/#home-carousel--> 
-    </section>  
+    <div class="js-silder">
+       <div class="silder-scroll">
+            <div class="silder-main">
+                <div class="silder-main-img">
+                    <img src="images/slider/1.jpg" alt="" />
+                </div>
+                <div class="silder-main-img">
+                    <img src="images/slider/2.jpg" alt="" />
+                </div>
+                <div class="silder-main-img">
+                    <img src="images/slider/3.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+        <div class="js-silder-ctrl"></div>
+    </div>  
     
     <div class="plate">
         <div class="wrap">
             <div class="headline">
-                <h2><span>智能推荐</span></h2>
+                <a href="#"><span>智能推荐</span></a>
             </div>	
-			<ul class="vmcarousel-normal">
-	            <li><img class="img-responsive" src="images/img6.jpeg" alt="" /></li>
-	            <li><img class="img-responsive" src="images/img6.jpeg" alt="" /></li>
-	            <li><img class="img-responsive" src="images/img6.jpeg" alt="" /></li>
-            </ul>
+            <div id="simple-content-carousel" class="carousel flexible slide" data-ride="carousel" data-interval="5000" data-wrap="true">				
+				<div class="items">
+					<div class="flex-item">
+						<img class="img-responsive" src="images/img6.jpeg"/>
+					</div>
+				
+					<div class="flex-item">
+						<img class="img-responsive" src="images/img6.jpeg"/>
+					</div>
+					
+					<div class="flex-item">
+						<img class="img-responsive" src="images/img6.jpeg"/>
+					</div>
+					
+					<div class="flex-item">
+						<img class="img-responsive" src="images/img6.jpeg"/>
+					</div>
+					
+					<div class="flex-item">
+						<img class="img-responsive" src="images/img6.jpeg"/>
+					</div>
+					
+					<div class="flex-item">
+						<img class="img-responsive" src="images/img6.jpeg"/>
+					</div>
+				</div>
+				
+				<div class="carousel-inner" role="listbox">
+					
+				</div>
+				
+				<a class="left carousel-control" href="#simple-content-carousel" role="button" data-slide="prev">
+					<span class="fa fa-angle-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#simple-content-carousel" role="button" data-slide="next">
+					<span class="fa fa-angle-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+            </div>
          </div>
     </div>
 
     <div class="plate">
         <div class="wrap">
             <div class="headline">
-                <h2><span>精品推荐</span></h2>
+                <a href="#"><span>精品推荐</span></a>
             </div>
 
             <div class="portfolio-wrapper" >
@@ -62,7 +99,7 @@
 				                <div class="col-md-3 col-sm-4">
 					                <div class="cards">
 						                <div class="cards-image">
-							                <img class="img-responsive" src="images/scene-t1.jpg" alt="" />
+							                <a href="#"><img class="img-responsive" src="images/scene-t1.jpg" alt="" /></a>
 						                </div>
 						                <div class="cards-info">
 							                <h4>精品课程名字</h4>
@@ -229,60 +266,60 @@
     <div class="plate">
         <div class="wrap">
             <div class="headline">
-                <h2><span>作品精选</span></h2>
+                <a href="#"><span>作品精选</span></a>
             </div>
 
 			<div class="row">
 				<div class="portfolio-wrapper" >									
 					<div class="portfolio-items">					
 						<div class="col-md-6 col-sm-12">
-							<div class="portfolio-content">
-								<img class="img-responsive" src="images/1.jpeg" alt="" />
-								<div class="portfolio-overlay">
-									<a href="images/scene-r5.jpeg"><i class="fa fa-camera-retro"></i></a>
+							<div class="portfolio-content" id="first-img">
+								<a href="#"><img class="img-responsive" src="images/1.jpeg" alt="" /></a>
+								<a href="Video_View.aspx"><div class="portfolio-overlay">
+									<i class="fa fa-camera-retro"></i>
                                     <h5>Web Development</h5>
 									<p>Design, Develop</p>
-								</div>
+								</div></a>
 							</div>
 						</div>						
 						<div class="col-md-3 col-sm-6">
 							<div class="portfolio-content">
-								<img class="img-responsive" src="images/1.jpeg" alt="" />
-								<div class="portfolio-overlay">
-									<a href="images/scene-r5.jpeg"><i class="fa fa-camera-retro"></i></a>
+								<a href="#"><img class="img-responsive" src="images/1.jpeg" alt="" /></a>
+								<a href="Video_View.aspx"><div class="portfolio-overlay">
+									<i class="fa fa-camera-retro"></i>
                                     <h5>Web Development</h5>
 									<p>Design, Develop</p>
-								</div>
+								</div></a>
 							</div>	
 						</div>					
 						<div class="col-md-3 col-sm-6">
 							<div class="portfolio-content">
-								<img class="img-responsive" src="images/1.jpeg" alt="" />
-								<div class="portfolio-overlay">
-									<a href="images/scene-r5.jpeg"><i class="fa fa-camera-retro"></i></a>
+								<a href="#"><img class="img-responsive" src="images/1.jpeg" alt="" /></a>
+								<a href="Video_View.aspx"><div class="portfolio-overlay">
+									<i class="fa fa-camera-retro"></i>
                                     <h5>Web Development</h5>
 									<p>Design, Develop</p>
-								</div>
+								</div></a>
 							</div>	
 						</div>		
                         <div class="col-md-3 col-sm-6">
 							<div class="portfolio-content">
-								<img class="img-responsive" src="images/1.jpeg" alt="" />
-								<div class="portfolio-overlay">
-									<a href="images/scene-r5.jpeg"><i class="fa fa-camera-retro"></i></a>
+								<a href="#"><img class="img-responsive" src="images/1.jpeg" alt="" /></a>
+								<a href="Video_View.aspx"><div class="portfolio-overlay">
+									<i class="fa fa-camera-retro"></i>
                                     <h5>Web Development</h5>
 									<p>Design, Develop</p>
-								</div>
+								</div></a>
 							</div>	
 						</div>
                         <div class="col-md-3 col-sm-6">
 							<div class="portfolio-content">
-								<img class="img-responsive" src="images/1.jpeg" alt="" />
-								<div class="portfolio-overlay">
-									<a href="images/scene-r5.jpeg"><i class="fa fa-camera-retro"></i></a>
+								<a href="#"><img class="img-responsive" src="images/1.jpeg" alt="" /></a>
+								<a href="Video_View.aspx"><div class="portfolio-overlay">
+									<i class="fa fa-camera-retro"></i>
                                     <h5>Web Development</h5>
 									<p>Design, Develop</p>
-								</div>
+								</div></a>
 							</div>	
 						</div>						
 					</div>				
@@ -294,79 +331,67 @@
     <div class="plate">
         <div class="wrap">
             <div class="headline">
-                <h2><span>科教资讯</span></h2>
+                <a href="#"><span>科教资讯</span></a>
             </div>
 
             <div class="row">
 				<div class="col-md-4 col-sm-6">
 					<div class="box-item">
 						<div class="box-image box-content">	
+                            <a href="#"><img class="img-responsive" src="images/scene-t1.jpg" /></a>
                             <div class="content">
-							    <p class="works">科教资讯</p>
+							    <a href="#"><p class="works">科教资讯</p></a>
 						    </div>			
-							<div class="box-social">
-								<a href="#"><i class="fa fa-eye" style="font-size: 30px;"></i></a>
-							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-6">
 					<div class="box-item">
 						<div class="box-image box-content">	
+                            <a href="#"><img class="img-responsive" src="images/scene-t1.jpg" /></a>
                             <div class="content">
-							    <p class="works">科教资讯</p>
-						    </div>			
-							<div class="box-social">
-								<a href="#"><i class="fa fa-eye" style="font-size: 30px;"></i></a>
-							</div>
+							    <a href="#"><p class="works">科教资讯</p></a>
+						    </div>
 						</div>
 					</div>
 				</div>
                 <div class="col-md-4 col-sm-6">
 					<div class="box-item">
 						<div class="box-image box-content">	
+                            <a href="#"><img class="img-responsive" src="images/scene-t1.jpg" /></a>
                             <div class="content">
-							    <p class="works">科教资讯</p>
-						    </div>			
-							<div class="box-social">
-								<a href="#"><i class="fa fa-eye" style="font-size: 30px;"></i></a>
-							</div>
+							    <a href="#"><p class="works">科教资讯</p></a>
+						    </div>
 						</div>
 					</div>
 				</div>
                 <div class="col-md-4 col-sm-6">
 					<div class="box-item">
 						<div class="box-image box-content">	
+                            <a href="#"><img class="img-responsive" src="images/scene-t1.jpg" /></a>
                             <div class="content">
-							    <p class="works">科教资讯</p>
-						    </div>			
-							<div class="box-social">
-								<a href="#"><i class="fa fa-eye" style="font-size: 30px;"></i></a>
-							</div>
+							    <a href="#"><p class="works">科教资讯</p></a>
+						    </div>
 						</div>
 					</div>
 				</div>
                 <div class="col-md-4 col-sm-6">
 					<div class="box-item">
 						<div class="box-image box-content">	
+                            <a href="#"><img class="img-responsive" src="images/scene-t1.jpg" /></a>
                             <div class="content">
-							    <p class="works">科教资讯</p>
-						    </div>			
-							<div class="box-social">
-								<a href="#"><i class="fa fa-eye" style="font-size: 30px;"></i></a>
-							</div>
+							    <a href="#"><p class="works">科教资讯</p></a>
+						    </div>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-6">
 					<div class="box-item">
 						<div class="box-image box-content">	
+                            <a href="#"><img class="img-responsive" src="images/scene-t1.jpg" /></a>
                             <div class="content">
-							    <p class="works">科教资讯</p>
-						    </div>			
-							<div class="box-social">
-								<a href="#"><i class="fa fa-eye" style="font-size: 30px;"></i></a>
-							</div>
+							    <a href="#"><p class="works">科教资讯</p></a>
+						    </div>
 						</div>
 					</div>
 				</div>			
@@ -378,7 +403,7 @@
     <div class="plate">
         <div class="wrap">
             <div class="headline">
-                <h2><span>职教在线</span></h2>
+                <a href="#"><span>职教在线</span></a>
             </div>
 
             <div class="row">
@@ -421,7 +446,7 @@
     <div class="plate">
         <div class="wrap">
             <div class="headline">
-                <h2><span>师范技能</span></h2>
+                <a href="#"><span>师范技能</span></a>
             </div>
 
             <div class="portfolio-items">
@@ -431,7 +456,7 @@
 				            <div class="col-md-4 col-sm-6">
 					            <div class="cards">
 						            <div class="cards-image">
-							            <img class="img-responsive" src="images/img2.jpg" alt="" />
+							            <a href="#"><img class="img-responsive" src="images/img2.jpg" alt="" /></a>
 						            </div>
 						            <div class="cards-info">
 							            <h4>师范技能大赛</h4>
@@ -443,7 +468,7 @@
                             <div class="col-md-4 col-sm-6">
 					            <div class="cards">
 						            <div class="cards-image">
-							            <img class="img-responsive" src="images/img2.jpg" alt="" />
+							            <a href="#"><img class="img-responsive" src="images/img2.jpg" alt="" /></a>
 						            </div>
 						            <div class="cards-info">
 							            <h4>师范技能大赛</h4>
@@ -455,7 +480,7 @@
                             <div class="col-md-4 col-sm-6">
 					            <div class="cards">
 						            <div class="cards-image">
-							            <img class="img-responsive" src="images/img2.jpg" alt="" />
+							            <a href="#"><img class="img-responsive" src="images/img2.jpg" alt="" /></a>
 						            </div>
 						            <div class="cards-info">
 							            <h4>师范技能大赛</h4>
@@ -474,7 +499,7 @@
     <div class="plate">
         <div class="wrap">
             <div class="headline">
-                <h2><span>数字媒体</span></h2>
+                <a href="#"><span>数字媒体</span></a>
             </div>
 
 			<div class="row">
@@ -482,66 +507,66 @@
 					<div class="portfolio-items">					
 						<div class="col-md-3 col-sm-6">
 							<div class="portfolio-content">
-								<img class="img-responsive" src="images/img3.jpeg" alt="" />
+								<a href="#"><img class="img-responsive" src="images/img3.jpeg" alt="" />
 								<div class="portfolio-overlay">
-									<a href="images/scene-r5.jpeg"><i class="fa fa-play-circle"></i></a>
-								</div>
+									<i class="fa fa-play-circle"></i>
+								</div></a>
 							</div>
 						</div>						
 						<div class="col-md-3 col-sm-6">
 							<div class="portfolio-content">
-								<img class="img-responsive" src="images/img3.jpeg" alt="" />
+								<a href="#"><img class="img-responsive" src="images/img3.jpeg" alt="" />
 								<div class="portfolio-overlay">
-									<a href="images/scene-r5.jpeg"><i class="fa fa-play-circle"></i></a>
-								</div>
+									<i class="fa fa-play-circle"></i>
+								</div></a>
 							</div>
 						</div>
                         <div class="col-md-3 col-sm-6">
 							<div class="portfolio-content">
-								<img class="img-responsive" src="images/img3.jpeg" alt="" />
+								<a href="#"><img class="img-responsive" src="images/img3.jpeg" alt="" />
 								<div class="portfolio-overlay">
-									<a href="images/scene-r5.jpeg"><i class="fa fa-play-circle"></i></a>
-								</div>
+									<i class="fa fa-play-circle"></i>
+								</div></a>
 							</div>
 						</div>
                         <div class="col-md-3 col-sm-6">
 							<div class="portfolio-content">
-								<img class="img-responsive" src="images/img3.jpeg" alt="" />
+								<a href="#"><img class="img-responsive" src="images/img3.jpeg" alt="" />
 								<div class="portfolio-overlay">
-									<a href="images/scene-r5.jpeg"><i class="fa fa-play-circle"></i></a>
-								</div>
+									<i class="fa fa-play-circle"></i>
+								</div></a>
 							</div>
 						</div>
                         <div class="col-md-3 col-sm-6">
 							<div class="portfolio-content">
-								<img class="img-responsive" src="images/img3.jpeg" alt="" />
+								<a href="#"><img class="img-responsive" src="images/img3.jpeg" alt="" />
 								<div class="portfolio-overlay">
-									<a href="images/scene-r5.jpeg"><i class="fa fa-play-circle"></i></a>
-								</div>
+									<i class="fa fa-play-circle"></i>
+								</div></a>
 							</div>
 						</div>
                         <div class="col-md-3 col-sm-6">
 							<div class="portfolio-content">
-								<img class="img-responsive" src="images/img3.jpeg" alt="" />
+								<a href="#"><img class="img-responsive" src="images/img3.jpeg" alt="" />
 								<div class="portfolio-overlay">
-									<a href="images/scene-r5.jpeg"><i class="fa fa-play-circle"></i></a>
-								</div>
+									<i class="fa fa-play-circle"></i>
+								</div></a>
 							</div>
 						</div>
                         <div class="col-md-3 col-sm-6">
 							<div class="portfolio-content">
-								<img class="img-responsive" src="images/img3.jpeg" alt="" />
+								<a href="#"><img class="img-responsive" src="images/img3.jpeg" alt="" />
 								<div class="portfolio-overlay">
-									<a href="images/scene-r5.jpeg"><i class="fa fa-play-circle"></i></a>
-								</div>
+									<i class="fa fa-play-circle"></i>
+								</div></a>
 							</div>
 						</div>
                         <div class="col-md-3 col-sm-6">
 							<div class="portfolio-content">
-								<img class="img-responsive" src="images/img3.jpeg" alt="" />
+								<a href="#"><img class="img-responsive" src="images/img3.jpeg" alt="" />
 								<div class="portfolio-overlay">
-									<a href="images/scene-r5.jpeg"><i class="fa fa-play-circle"></i></a>
-								</div>
+									<i class="fa fa-play-circle"></i>
+								</div></a>
 							</div>
 						</div>
                     </div>
@@ -554,55 +579,59 @@
     <div class="plate">
         <div class="wrap">
             <div class="headline">
-                <h2><span>阳光心理</span></h2>
+                <a href="#"><span>阳光心理</span></a>
             </div>
 
             <div class="row">
 				<div class="col-md-3 col-sm-6">
 					<div class="section3">
 						<div class="section3-image section3-content">	
+                            <a href="#"><img class="img-responsive" src="images/scene-r1.jpeg" /></a>
                             <div class="s3-content">
 							    <p class="section3-works">阳光心理</p>
 						    </div>			
-							<div class="section3-social">
-								<a href="#"><i class="fa fa-eye" style="font-size: 30px;"></i></a>
-							</div>
+							<a href="#"><div class="section3-social">
+								<i class="fa fa-eye" style="font-size: 30px;"></i>
+							</div></a>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6">
 					<div class="section3">
 						<div class="section3-image section3-content">	
+                            <a href="#"><img class="img-responsive" src="images/scene-r1.jpeg" /></a>
                             <div class="s3-content">
 							    <p class="section3-works">阳光心理</p>
 						    </div>			
-							<div class="section3-social">
-								<a href="#"><i class="fa fa-eye" style="font-size: 30px;"></i></a>
-							</div>
+							<a href="#"><div class="section3-social">
+								<i class="fa fa-eye" style="font-size: 30px;"></i>
+							</div></a>
 						</div>
 					</div>
 				</div>
                 <div class="col-md-3 col-sm-6">
 					<div class="section3">
 						<div class="section3-image section3-content">	
+                            <a href="#"><img class="img-responsive" src="images/scene-r1.jpeg" /></a>
                             <div class="s3-content">
 							    <p class="section3-works">阳光心理</p>
 						    </div>			
-							<div class="section3-social">
-								<a href="#"><i class="fa fa-eye" style="font-size: 30px;"></i></a>
-							</div>
+							<a href="#"><div class="section3-social">
+								<i class="fa fa-eye" style="font-size: 30px;"></i>
+							</div></a>
 						</div>
 					</div>
 				</div>
                 <div class="col-md-3 col-sm-6">
 					<div class="section3">
 						<div class="section3-image section3-content">	
+                            <a href="#"><img class="img-responsive" src="images/scene-r1.jpeg" /></a>
                             <div class="s3-content">
 							    <p class="section3-works">阳光心理</p>
 						    </div>			
-							<div class="section3-social">
-								<a href="#"><i class="fa fa-eye" style="font-size: 30px;"></i></a>
-							</div>
+							<a href="#"><div class="section3-social">
+								<i class="fa fa-eye" style="font-size: 30px;"></i>
+							</div></a>
 						</div>
 					</div>
 				</div>
@@ -614,7 +643,7 @@
     <div class="plate">
         <div class="wrap">
             <div class="headline">
-                <h2><span>幼儿学堂</span></h2>
+                <a href="#"><span>幼儿学堂</span></a>
             </div>
 
             <div class="row">
@@ -670,6 +699,8 @@
     </div>  
 
     <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="js/flexible-bootstrap-carousel.js"></script>
+    <script src="js/wySilder.js" type="text/javascript"></script>
     <script src="js/jquery.vm-carousel.js"></script>
     <script type="text/javascript">
 	    jQuery(function($){
@@ -679,6 +710,17 @@
 			     autoplay: false,
 			     infinite: false
 		      });
-	       });
+	    });
+
+	    $(function () {
+	        $(".js-silder").silder({
+	            auto: true,//自动播放，传入任何可以转化为true的值都会自动轮播
+	            speed: 30,//轮播图运动速度
+	            sideCtrl: true,//是否需要侧边控制按钮
+	            defaultView: 0,//默认显示的索引
+	            interval: 3000,//自动轮播的时间，以毫秒为单位，默认3000毫秒
+	            activeClass: "active",//小的控制按钮激活的样式，不包括作用两边，默认active
+	        });
+	    });
     </script>
 </asp:Content>

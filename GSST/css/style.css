@@ -177,128 +177,6 @@ label{
 }
 /* END Footer */
 
-#home-carousel  .item {
-	background-position: center top;
-	background-repeat: no-repeat;
-	background-size:cover;
-	width:100%;
-	height: 489px;
-}
-/*#home-carousel .item:before{
-	background-color: #000;
-	content: "";
-	height: 100%;
-	top: 0;
-	left: 0;
-	opacity: 0.5;
-	position: absolute;
-	width: 100%;
-}*/
-.carousel-caption {
-	left: 15px;
-	right: 15px;
-	top: 50%;
-	font-size: 15px;
-	text-align: left;
-	color: #fff;
-	text-shadow: none;
-	margin-top: -130px;	
-}
-
-.carousel-caption h1 {
-	font-size:46px;
-	margin-bottom:0;
-	line-height:27px;
-	letter-spacing:2px;
-	font-weight:100;
-}
-.carousel-caption h2 {
-	font-size:81px;
-	font-weight:600;
-	margin-top:0px;
-	text-transform:lowercase;
-	letter-spacing:2px;
-	margin-bottom:20px;
-}
-.home-carousel-left, 
-.home-carousel-right {	
-	background-color: #f0f0f0;
-	color:#000;
-	font-size: 32px;
-	height: 40px;
-	line-height: 40px;
-	margin-top: -20px;
-	position: absolute;
-	text-align: center;
-	top: 50%;
-	width: 32px;
-	z-index: 999;
-	-webkit-transition: 300ms;
-	-moz-transition: 300ms;
-	-o-transition: 300ms;
-	-ms-transition: 300ms;
-	transition: 300ms;
-}
-.home-carousel-left {
-	left:-32px;
-}
-.home-carousel-right {
-	right:-32px;
-}
-#home-carousel:hover .home-carousel-left {
-	left:0;
-}
-#home-carousel:hover .home-carousel-right {
-	right:0;
-}
-/* Carousel animation */
-
-#home-carousel .item h1, 
-#home-carousel .item h2, 
-#home-carousel .item p {
-	opacity:0;
-	-moz-transform: scale(0.5);
-	-webkit-transform: scale(0.5);
-	-o-transform: scale(0.5);
-	-ms-transform: scale(0.5);
-	transform: scale(0.5);
-}
-
-#home-carousel .item h1 {
-	-webkit-transition: all 0.5s ease-in-out 0.15s;
-	-moz-transition: all 0.5s ease-in-out 0.15s;
-	-ms-transition: all 0.5s ease-in-out 0.15s;
-	-o-transition: all 0.5s ease-in-out 0.15s;
-	transition: all 0.5s ease-in-out 0.15s;
-}
-
-#home-carousel .item.active h1, 
-#home-carousel .item.active h2, 
-#home-carousel .item.active p {
-	opacity:1;
-	-moz-transform: scale(1);
-	-webkit-transform: scale(1);
-	-o-transform: scale(1);
-	-ms-transform: scale(1);
-	transform: scale(1);
-}
-
-#home-carousel .item h2 {
-	-webkit-transition: all 0.5s ease-in-out 0.30s;
-	-moz-transition: all 0.5s ease-in-out 0.30s;
-	-ms-transition: all 0.5s ease-in-out 0.30s;
-	-o-transition: all 0.5s ease-in-out 0.30s;
-	transition: all 0.5s ease-in-out 0.30s;
-}
-
-#home-carousel .item p {
-	-webkit-transition: all 0.5s ease-in-out 0.45s;
-	-moz-transition: all 0.5s ease-in-out 0.45s;
-	-ms-transition: all 0.5s ease-in-out 0.45s;
-	-o-transition: all 0.5s ease-in-out 0.45s;
-	transition: all 0.5s ease-in-out 0.45s;
-}
-
 /* video list */
 .portfolio-wrapper .portfolio-items{
 	clear: both;
@@ -306,6 +184,14 @@ label{
 .portfolio-wrapper .portfolio-content{
 	position: relative;
 	margin-bottom: 20px;
+    height: 165px;
+    width: 100%;
+    overflow: hidden;
+    background: #fff url("../images/bgimg.jpg") no-repeat;
+}
+#first-img {
+    height: 350px;
+    background: #f1f1f1;
 }
 .portfolio-wrapper .portfolio-overlay{
 	position: absolute;
@@ -336,9 +222,12 @@ label{
 	-ms-transform: scale(1);
 	transform: scale(1);
 }
-.portfolio-wrapper .portfolio-overlay a{
+.portfolio-overlay i {
+    font-size: 35px;
+}
+.portfolio-wrapper .portfolio-overlay{
 	color: #fff;
-	font-size: 35px;
+	
 }
 .portfolio-wrapper .portfolio-overlay a:hover{
 	color: #fff;
@@ -355,19 +244,27 @@ label{
 }
 .headline {
     border-left: 3px solid #1383BC;
-    height: 34px;
+    height: 35px;
     margin-bottom: 50px;
+    line-height: 22px;    
 }
-/*.headline h2 {
-    padding-top: 4px;
-}*/
-.headline h2 span{
+.headline a{
+    display: inline-block;
     font-size: 28px;
     color: #303D4A;
-    padding: 14px;
+    padding: 5px 14px;
+}
+.headline a:hover {
+    text-decoration: none;
+    color: #303D4A;
 }
 /* END Plate*/
 
+/*.vmcarousel-normal a{
+    height: 320px;
+    width: 100%;
+    display: inline-block;
+}*/
 /* card */
 .portfolio-wrapper ul.filter{
 	list-style: none;
@@ -407,7 +304,13 @@ label{
 }
 .cards-image{
 	position: relative;
+    height: 160px;
+    width: 100%;
+    overflow: hidden;
 }  
+.cards-image img {
+    
+}
 .cards-info{
 	background-color: #fff;
 	padding: 15px;
@@ -432,17 +335,18 @@ label{
 }
 /* Box-item */
 .box-item{
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 .box-image{
-	position: relative;
-    background: url(../images/scene-r1.jpeg) no-repeat;
+	position: relative;   
     display: block;
-    height: 280px;
+    height: 313px;
+    width: 100%;
+    overflow: hidden;
 }
 .box-item .box-content {
     display: block;
-    height: 280px;
+    height: 313px;
     color: #fff;
     position: relative;
     text-align: center;
@@ -467,13 +371,18 @@ label{
     text-align: center;
     padding: 10px 10px 0 10px;
     background-color: rgba(0,0,0,.5);
-    position: absolute !important;
     bottom: 0;
+    position: relative;
+    margin-top: -45px;
+}
+.box-content .content:hover {
+    background-color: rgba(0,0,0,.7);
 }
 p.works {
     margin: 0;
     font-size: 16px;
     line-height: 45px;
+    color: #fff;
 }
 .box-info{
 	background-color: #f5f5f5;
@@ -490,6 +399,7 @@ p.works {
 	position: absolute;
 	width: 100%;
 	height: 100%;
+    overflow: hidden;
 	background-color: rgba(0, 0, 0, 0.6);
 	left: 0;
 	top: 0;
@@ -608,8 +518,10 @@ p.works {
 }
 .section2-content {
     display: block;
-    height: 280px;
+    height: 250px;
     text-align: center;
+    width: 100%;
+    overflow: hidden;
 }
 .section2-content img {
     height: 100%;
@@ -627,19 +539,18 @@ p.works {
 
 /* Section3 */
 .section3{
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 .section3-image{
 	position: relative;
-    background: url(../images/img4.jpeg) no-repeat;
     display: block;
-    height: 280px;
+    width: 100%;
+    overflow: hidden;
+    height: 165px;
 }
 .section3 .section3-content {
     display: block;
-    height: 280px;
     color: #fff;
-    position: relative;
     text-align: center;
     background-size: cover;
     background-position: center;
@@ -701,7 +612,6 @@ p.section3-works {
 	-ms-transform: scale(0.5);
 	transform: scale(0.5);
 }
-
 .section3:hover .section3-social{
 	opacity: 1;
 	-moz-transform: scale(1);
@@ -710,18 +620,12 @@ p.section3-works {
 	-ms-transform: scale(1);
 	transform: scale(1);
 }
-
-.section3 .section3-social a{
-	position: relative;
-	font-size: 16px;
+.section3-social i {
+    font-size: 16px;
+    position: relative;
 	color: #fff;
 	top: 47%;
 }
-
-.section3:hover .section3-social a{
-	margin: 6px;
-}
-
 /* END Section3 */
 
 /* To Top */

@@ -794,6 +794,7 @@ p.section3-works {
 }
 .video-rank span {
     font-size: 15px;
+    line-height: 1.75 !important;
 }
 .v-date {
     color: #9A9A9A;
@@ -802,10 +803,6 @@ p.section3-works {
 /* End */
 
 /* Other View */
-.wrap {
-    width: 75%;
-    margin: 0 auto;
-}
 .pic {
     margin: 0 20px;  
 }
@@ -917,23 +914,6 @@ p.section3-works {
 .fh5co-form .form-control:focus, .fh5co-form .form-control:active {
   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 }
-/*.btn-primary {
-  height: 50px;
-  padding-right: 20px;
-  padding-left: 20px;
-  border: none;
-  background: #33cccc;
-  color: #ffffff;
-  -webkit-box-shadow: -2px 10px 20px -1px rgba(51, 204, 204, 0.4);
-  -moz-box-shadow: -2px 10px 20px -1px rgba(51, 204, 204, 0.4);
-  -o-box-shadow: -2px 10px 20px -1px rgba(51, 204, 204, 0.4);
-  box-shadow: -2px 10px 20px -1px rgba(51, 204, 204, 0.4);
-}
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  color: #ffffff;
-  background: #47d1d1 !important;
-  outline: none;
-}*/
 .login-page {
   font-family: "Open Sans", Arial, sans-serif;
   line-height: 1.5;
@@ -941,5 +921,81 @@ p.section3-works {
   color: #848484;
 }
 /* END Login */
+
+/* Work-list */
+.list-head {
+    padding: 0 0 15px 0;
+}
+.list-meta .column-path {
+    line-height: 24px;
+    color: #838383;
+}
+.list-meta .column-path a {
+    color: #838383;
+    text-decoration: none;
+}
+.list-meta .column-path a:hover {
+    color: #2F8AB7;
+}
+.works-list {
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+.wrap1 {
+    width: 85%;
+    margin: 0 auto;
+}
+.workslist {
+    -webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+    margin-bottom: 30px;
+    border: 1px solid #E8E8E8;
+}
+.workslist:hover {
+    box-shadow: 0px 0px 18px #ccc;
+}
+.works-image{
+	position: relative;
+    height: 165px;
+    width: 100%;
+    overflow: hidden;
+}  
+.works-info{
+	padding: 15px;
+    color: #737373;
+}
+.works-info h3 {
+	width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: normal;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    font-size: 20px;
+    margin: 0 0 10px 0; 
+}
+.works-info h3 a {
+     color: #000;
+}
+.works-info h3 a:hover{
+    color: #626262;
+    text-decoration: none;
+}
+.works-info span{
+	text-transform: uppercase;
+}
+.works-info .view {
+    margin-top: 20px;
+    text-align: right
+}
+.works-detail {
+    font-size: 12px;
+    color: #A3A3A3;
+    float: right;
+}
+/* END */
 /*-- responsive-design starts-here --*/
 

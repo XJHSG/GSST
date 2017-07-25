@@ -45,9 +45,25 @@
                                 <a href="#"><img class="img-responsive" src="images/1.jpeg" /></a>
                             </div>
                             <div class="content-right">
-                                <p><a href="#">相关推荐详情详情详情详情详情详情详情相关推荐详情详情详情详情详情详情详情</a></p>
-                                <p class="video-detals"><i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
-                                   <i class="fa fa-comment"></i>&nbsp;18</p>                                          
+                                <p><a href="#">相关推荐详情详情详情详情详情详情详情相关推荐详情详情详情详情详情详情详情</a></p>                                       
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="video-content">
+                            <div class="content-left">
+                                <a href="#"><img class="img-responsive" src="images/1.jpeg" /></a>
+                            </div>
+                            <div class="content-right">
+                                <p><a href="#">相关推荐详情详情详情详情详情详情详情相关推荐详情详情详情详情详情详情详情</a></p>                                        
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="video-content">
+                            <div class="content-left">
+                                <a href="#"><img class="img-responsive" src="images/1.jpeg" /></a>
+                            </div>
+                            <div class="content-right">
+                                <p><a href="#">相关推荐详情详情详情详情详情详情详情相关推荐详情详情详情详情详情详情详情</a></p>                                         
                             </div>
                         </div>
                         <div class="clearfix"></div>
@@ -57,30 +73,8 @@
                             </div>
                             <div class="content-right">
                                 <p><a href="#">相关推荐详情详情详情详情详情详情详情相关推荐详情详情详情详情详情详情详情</a></p>
-                                <p class="video-detals"><i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
-                                   <i class="fa fa-comment"></i>&nbsp;18</p>                                          
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-                        <div class="video-content">
-                            <div class="content-left">
-                                <a href="#"><img class="img-responsive" src="images/1.jpeg" /></a>
-                            </div>
-                            <div class="content-right">
-                                <p><a href="#">相关推荐详情详情详情详情详情详情详情相关推荐详情详情详情详情详情详情详情</a></p>
-                                <p class="video-detals"><i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
-                                   <i class="fa fa-comment"></i>&nbsp;18</p>                                          
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-                        <div class="video-content">
-                            <div class="content-left">
-                                <a href="#"><img class="img-responsive" src="images/1.jpeg" /></a>
-                            </div>
-                            <div class="content-right">
-                                <p><a href="#">相关推荐详情详情详情详情详情详情详情相关推荐详情详情详情详情详情详情详情</a></p>
-                                <p class="video-detals"><i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
-                                   <i class="fa fa-comment"></i>&nbsp;18</p>                                          
+                                <%--<p class="video-detals"><i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
+                                   <i class="fa fa-comment"></i>&nbsp;18</p> --%>                                         
                             </div>
                         </div>
                     </div>
@@ -89,11 +83,11 @@
                             <h4>点击排行</h4>
                         </div>
                         <div class="video-rank">
-                            <div><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情详情排行</span><span class="pic-author">author</span></div>
-                            <div><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情详情排行</span><span class="pic-author">author</span></div>
-                            <div><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情详情排行</span><span class="pic-author">author</span></div>
-                            <div><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情详情排行</span><span class="pic-author">author</span></div>
-                            <div><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情详情排行</span><span class="pic-author">author</span></div>
+                            <div><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情详情排行详情排行</span><%--<span class="pic-author">author</span>--%></div>
+                            <div><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情详情排行详情排行</span></div>
+                            <div><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情详情排行详情排行</span></div>
+                            <div><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情详情排行详情排行</span></div>
+                            <div><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情详情排行详情排行</span></div>
                         </div>
                     </div>
                 </div>                 

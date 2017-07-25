@@ -45,7 +45,7 @@
                                 <a href="#"><img class="img-responsive" src="images/1.jpeg" /></a>
                             </div>
                             <div class="content-right">
-                                <p>相关推荐详情详情详情详情详情详情详情相关推荐详情详情详情详情详情详情详情</p>
+                                <p><a href="#">相关推荐详情详情详情详情详情详情详情相关推荐详情详情详情详情详情详情详情</a></p>
                                 <p class="video-detals"><i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
                                    <i class="fa fa-comment"></i>&nbsp;18</p>                                          
                             </div>
@@ -56,7 +56,7 @@
                                 <a href="#"><img class="img-responsive" src="images/1.jpeg" /></a>
                             </div>
                             <div class="content-right">
-                                <p>相关推荐详情详情详情详情详情详情详情相关推荐详情详情详情详情详情详情详情</p>
+                                <p><a href="#">相关推荐详情详情详情详情详情详情详情相关推荐详情详情详情详情详情详情详情</a></p>
                                 <p class="video-detals"><i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
                                    <i class="fa fa-comment"></i>&nbsp;18</p>                                          
                             </div>
@@ -67,7 +67,7 @@
                                 <a href="#"><img class="img-responsive" src="images/1.jpeg" /></a>
                             </div>
                             <div class="content-right">
-                                <p>相关推荐详情详情详情详情详情详情详情相关推荐详情详情详情详情详情详情详情</p>
+                                <p><a href="#">相关推荐详情详情详情详情详情详情详情相关推荐详情详情详情详情详情详情详情</a></p>
                                 <p class="video-detals"><i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
                                    <i class="fa fa-comment"></i>&nbsp;18</p>                                          
                             </div>
@@ -78,7 +78,7 @@
                                 <a href="#"><img class="img-responsive" src="images/1.jpeg" /></a>
                             </div>
                             <div class="content-right">
-                                <p>相关推荐详情详情详情详情详情详情详情相关推荐详情详情详情详情详情详情详情</p>
+                                <p><a href="#">相关推荐详情详情详情详情详情详情详情相关推荐详情详情详情详情详情详情详情</a></p>
                                 <p class="video-detals"><i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
                                    <i class="fa fa-comment"></i>&nbsp;18</p>                                          
                             </div>
@@ -89,12 +89,11 @@
                             <h4>点击排行</h4>
                         </div>
                         <div class="video-rank">
-                            <div><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情排行详情</span><span class="v-date">2017-07-22</span></div>
-                            <div><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情排行详情</span><span class="v-date">2017-07-22</span></div>
-                            <div><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情排行详情</span><span class="v-date">2017-07-22</span></div>
-                            <div><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情排行详情</span><span class="v-date">2017-07-22</span></div>
-                            <div><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情排行详情</span><span class="v-date">2017-07-22</span></div>
-                            <div><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情排行详情</span><span class="v-date">2017-07-22</span></div>
+                            <div><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情详情排行</span><span class="pic-author">author</span></div>
+                            <div><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情详情排行</span><span class="pic-author">author</span></div>
+                            <div><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情详情排行</span><span class="pic-author">author</span></div>
+                            <div><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情详情排行</span><span class="pic-author">author</span></div>
+                            <div><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情详情排行</span><span class="pic-author">author</span></div>
                         </div>
                     </div>
                 </div>                 

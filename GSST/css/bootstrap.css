@@ -1741,9 +1741,9 @@ input[type="search"] {
 input[type="date"] {
   line-height: 34px;
 }
-.form-group {
+/*.form-group {
   margin: 20px 25px;
-}
+}*/
 .radio,
 .checkbox {
   display: block;

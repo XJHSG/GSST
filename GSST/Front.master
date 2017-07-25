@@ -36,8 +36,8 @@
     <!--start-header-section-->
 		<div class="header">
             <div class="entry text-right">
-                <span><a href="#"><i class="fa fa-lock"></i>&nbsp;用户登录</a></span>         
-                <span><a id="login" href="#"><i class="fa fa-user"></i>&nbsp;用户注册</a></span>
+                <span><a href="Login.aspx"><i class="fa fa-lock"></i>&nbsp;用户登录</a></span>         
+                <span><a id="login" href="Register.aspx"><i class="fa fa-user"></i>&nbsp;用户注册</a></span>
             </div>
             <div class="name">
                 <div class="row">

@@ -31,7 +31,46 @@
                         <div class="video-info">
                             <h3 class="video-comment">评论</h3>  
                             <textarea class="form-control" placeholder="Message" required=""></textarea>  
-                            <button class="btn btn-primary">发送</button>                       
+                            <button class="btn btn-primary">发送</button>    
+                            <h3 class="all-comment">全部评论<span>(12)</span></h3>  
+                            <div class="media-grids">
+                                <div class="media">
+								    <h5>栗子</h5>
+								    <div class="media-left">
+									    <a href="#">
+										    <img src="images/user.jpg" title="One movies" alt=" " />
+									    </a>
+								    </div>
+								    <div class="media-body">
+									    <p>Maecenas ultricies rhoncus tincidunt maecenas imperdiet ipsum id ex pretium hendrerit maecenas imperdiet ipsum id ex pretium hendrerit</p>
+									    <span>2017-07-26</span>
+								    </div>
+							    </div>      
+                                <div class="media">
+								    <h5>栗子</h5>
+								    <div class="media-left">
+									    <a href="#">
+										    <img src="images/user.jpg" title="One movies" alt=" " />
+									    </a>
+								    </div>
+								    <div class="media-body">
+									    <p>Maecenas ultricies rhoncus tincidunt maecenas imperdiet ipsum id ex pretium hendrerit maecenas imperdiet ipsum id ex pretium hendrerit</p>
+									    <span>2017-07-26</span>
+								    </div>
+							    </div>
+                                <div class="row">
+                                    <div style="text-align: center; margin-top: 10px;">
+                                        <div class="pages">
+                                            <a style="margin-right:5px;">上一页</a>
+                                            <span class="cpb" style="margin-right:5px;">1</span>
+                                            <a class="pages" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$AspNetPager1','2')" style="margin-right:5px;">2</a>
+                                            <a class="pages" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$AspNetPager1','3')" style="margin-right:5px;">3</a>
+                                            <a class="pages" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$AspNetPager1','4')" style="margin-right:5px;">...</a>
+                                            <a class="pages" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$AspNetPager1','2')" style="margin-right:5px;">下一页</a>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
                         </div>
                     </div>
                 </div>

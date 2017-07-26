@@ -779,6 +779,68 @@ p.section3-works {
     font-size: 18px;
     color: #555555;
 }
+.all-comment {
+    font-size: 18px;
+    color: #555555;
+    margin-top: 65px;
+}
+.all-comment span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0 3px;
+    color: #909090;
+
+}
+.media-grids {
+    margin-top: 2em;
+}
+.media {
+    margin: 3em 0;
+}
+.media h5 {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    color: #2d2d2d;
+}
+.media-left, .media-right, .media-body {
+    display: table-cell;
+    vertical-align: top;
+}
+.media-left, .media > .pull-left {
+    padding-right: 10px;
+}
+.media-body p {
+    font-size: 13px;
+    color: #757575;
+    margin: 0 0 .5em 0;
+    line-height: 1.5em;
+}
+.media-body span {
+    color: #C7C7C7;
+    font-size: 13px;
+}
+.pages {
+    color: #ffd373;
+    margin: 0 0 4% 0;
+}
+.pages a, .pages .cpb {
+    text-decoration: none;
+    padding: 4px 8px;
+    border: 1px solid #ddd;
+    background: #fff;
+    margin: 0 4px;
+    margin-right: 4px;
+    font-size: 13px;
+    color: #333;
+}
+.pages .cpb {
+    font-weight: bold;
+    color: #fff;
+    background: #FF5240;
+    border: 1px solid #FF5240;
+}
 .video-info textarea {
     resize: none;
     min-height: 100px;

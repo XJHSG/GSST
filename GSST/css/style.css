@@ -978,7 +978,7 @@ p.section3-works {
     margin: 0 0 10px 0; 
 }
 .works-info h3 a {
-     color: #000;
+     color: #161418;
 }
 .works-info h3 a:hover{
     color: #626262;
@@ -995,6 +995,38 @@ p.section3-works {
     font-size: 12px;
     color: #A3A3A3;
     float: right;
+}
+/* END */
+
+/* Article-View */
+.article-view {
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+.article-title h3{
+    font-size: 24px;
+    text-align: center;
+    color: #161418;
+}
+.article-title p {
+    color: #3C3D3D;
+    line-height: 1.75!important;
+    text-indent: 2em;
+}
+.article-detail {
+    text-align: center;
+    margin-top: 25px;
+    color: #999999;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed #CCCCCC;
+}
+.article-detail span{
+    margin-right: 8px;   
+}
+.article-title {
+    margin-bottom: 80px;
+    margin-top: 20px;
 }
 /* END */
 /*-- responsive-design starts-here --*/

@@ -25,7 +25,7 @@
 						        </div>
 						        <div class="works-info">
 							        <h3><a href="#">作品名字</a></h3>
-							        <span>作者：栗子</span>
+							        <span>作者：</span><span>栗子</span>
                                     <span class="works-detail"><i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
                                     <i class="fa fa-comment"></i>&nbsp;18</span>
 						        </div>
@@ -38,7 +38,7 @@
 						        </div>
 						        <div class="works-info">
 							        <h3><a href="#">作品名字</a></h3>
-							        <span>作者：栗子</span>
+							        <span>作者：</span><span>栗子</span>
                                     <span class="works-detail"><i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
                                     <i class="fa fa-comment"></i>&nbsp;18</span>
 						        </div>
@@ -51,7 +51,7 @@
 						        </div>
 						        <div class="works-info">
 							        <h3><a href="#">作品名字</a></h3>
-							        <span>作者：栗子</span>
+							        <span>作者：</span><span>栗子</span>
                                     <span class="works-detail"><i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
                                     <i class="fa fa-comment"></i>&nbsp;18</span>
 						        </div>
@@ -64,7 +64,7 @@
 						        </div>
 						        <div class="works-info">
 							        <h3><a href="#">作品名字</a></h3>
-							        <span>作者：栗子</span>
+							        <span>作者：</span><span>栗子</span>
                                     <span class="works-detail"><i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
                                     <i class="fa fa-comment"></i>&nbsp;18</span>
 						        </div>
@@ -77,7 +77,7 @@
 						        </div>
 						        <div class="works-info">
 							        <h3><a href="#">作品名字</a></h3>
-							        <span>作者：栗子</span>
+							        <span>作者：</span><span>栗子</span>
                                     <span class="works-detail"><i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
                                     <i class="fa fa-comment"></i>&nbsp;18</span>
 						        </div>
@@ -90,7 +90,7 @@
 						        </div>
 						        <div class="works-info">
 							        <h3><a href="#">作品名字</a></h3>
-							        <span>作者：栗子</span>
+							        <span>作者：</span><span>栗子</span>
                                     <span class="works-detail"><i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
                                     <i class="fa fa-comment"></i>&nbsp;18</span>
 						        </div>
@@ -103,7 +103,7 @@
 						        </div>
 						        <div class="works-info">
 							        <h3><a href="#">作品名字</a></h3>
-							        <span>作者：栗子</span>
+							        <span>作者：</span><span>栗子</span>
                                     <span class="works-detail"><i class="fa fa-eye"></i>&nbsp;2000 &nbsp;
                                     <i class="fa fa-comment"></i>&nbsp;18</span>
 						        </div>
@@ -111,34 +111,34 @@
 						</div>
 					</div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" style="margin-top: 38px;">
                     <div class="relate-video">
                         <div class="video-headline">
                             <h4>相关推荐</h4>
                         </div>
                         <div class="video-rank">
                             <div>
-                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情排行详情</span></a>
+                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情</span></a>
                                 <span class="pic-author">author</span>
                             </div> 
                             <div>
-                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情排行详情</span></a>
+                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情</span></a>
                                 <span class="pic-author">author</span>
                             </div>
                             <div>
-                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情排行详情</span></a>
+                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情</span></a>
                                 <span class="pic-author">author</span>
                             </div>
                             <div>
-                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情排行详情</span></a>
+                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情</span></a>
                                 <span class="pic-author">author</span>
                             </div>
                             <div>
-                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情排行详情</span></a>
+                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情</span></a>
                                 <span class="pic-author">author</span>
                             </div>
-                            <div>
-                        </div>
+                        <div>
+                    </div>
                     </div>
                     </div>
                   
@@ -163,7 +163,7 @@
                                 <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情排行详情排行详情</span></a>
                             </div>                                   
                         </div>
-                </div>
+                    </div>
                 </div>
             </div>
         </div>               

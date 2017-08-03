@@ -114,56 +114,108 @@
                 <div class="col-md-3" style="margin-top: 38px;">
                     <div class="relate-video">
                         <div class="video-headline">
-                            <h4>相关推荐</h4>
-                        </div>
-                        <div class="video-rank">
-                            <div>
-                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情</span></a>
-                                <span class="pic-author">author</span>
-                            </div> 
-                            <div>
-                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情</span></a>
-                                <span class="pic-author">author</span>
-                            </div>
-                            <div>
-                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情</span></a>
-                                <span class="pic-author">author</span>
-                            </div>
-                            <div>
-                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情</span></a>
-                                <span class="pic-author">author</span>
-                            </div>
-                            <div>
-                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情</span></a>
-                                <span class="pic-author">author</span>
-                            </div>
-                        <div>
-                    </div>
-                    </div>
-                    </div>
-                  
-                    <div class="relate-video">
-                        <div class="video-headline">
                             <h4>热门点击</h4>
                         </div>
                         <div class="video-rank">
                             <div>
-                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情排行详情排行详情</span></a>
+                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情排</span></a>
+                                <span class="pic-author">
+                                    300次
+                               </span>
                             </div>   
                             <div>
-                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情排行详情排行详情</span></a>
+                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情排</span></a>
+                                <span class="pic-author">
+                                    300次
+                               </span>
                             </div>
                             <div>
-                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情排行详情排行详情</span></a>
+                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情排</span></a>
+                                <span class="pic-author">
+                                    300次
+                               </span>
                             </div>
                             <div>
-                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情排行详情排行详情</span></a>
+                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情排</span></a>
+                                <span class="pic-author">
+                                    300次
+                               </span>
                             </div>
                             <div>
-                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情排行详情排行详情</span></a>
-                            </div>                                   
+                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情排</span></a>
+                                <span class="pic-author">
+                                    300次
+                               </span>
+                            </div>                                
                         </div>
                     </div>
+
+                    <div class="relate-video">
+                        <div class="video-headline">
+                            <h4>特别推荐</h4>
+                        </div>
+                        <div class="video-content">
+                            <div class="content-left">
+                                <a href="#"><i class="fa fa-play-circle"></i><img class="img-responsive" src="images/2.jpeg" /></a>
+                            </div>
+                            <div class="content-right">
+                                <p><a href="#">相关推荐详情详情详情详情详情详情详情相关推荐</a></p>                                                
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="video-content">
+                            <div class="content-left">
+                                <a href="#"><i class="fa fa-play-circle"></i><img class="img-responsive" src="images/img5.jpeg" /></a>
+                            </div>
+                            <div class="content-right">
+                                <p><a href="#">相关推荐详情详情详情详情详情详情详情相关推荐</a></p>                                               
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="video-content">
+                            <div class="content-left">
+                                <a href="#"><i class="fa fa-play-circle"></i><img class="img-responsive" src="images/1.jpeg" /></a>
+                            </div>
+                            <div class="content-right">
+                                <p><a href="#">相关推荐详情详情详情详情详情详情详情相关推荐</a></p>                                                
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="video-content">
+                            <div class="content-left">
+                                <a href="#"><i class="fa fa-play-circle"></i><img class="img-responsive" src="images/1.jpeg" /></a>
+                            </div>
+                            <div class="content-right">
+                                <p><a href="#">相关推荐详情详情详情详情详情详情详情相关推荐</a></p>                                               
+                            </div>
+                        </div>
+                    </div>
+
+                    <%--<div class="relate-video">
+                        <div class="video-headline">
+                            <h4>特别推荐</h4>
+                        </div>
+                        <div class="video-rank">
+                            <div>
+                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情排行详情</span></a>
+                            </div> 
+                            <div>
+                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情排行详情</span></a>
+                            </div>
+                            <div>
+                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情排行详情</span></a>                                
+                            </div>
+                            <div>
+                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情排行详情</span></a>
+                            </div>
+                            <div>
+                                <a href="#"><span><i class="fa fa-caret-right"></i>排行详情排行详情排行详情排行详情</span></a>
+                            </div>
+                        <div>
+                    </div>--%>
+                    </div>
+                    </div>
+                                     
                 </div>
             </div>
         </div>               

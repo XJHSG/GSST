@@ -18,6 +18,13 @@ body a{
 	-ms-transition:0.5s all;
     text-decoration: none;
 }
+body a:hover {
+    text-decoration: none;
+    color: #337AB7;
+}
+body img {
+    border-radius: 3px;
+}
 input[type="button"],input[type="submit"]{
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -188,10 +195,19 @@ label{
     width: 100%;
     overflow: hidden;
     background: #fff url("../images/bgimg.jpg") no-repeat;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.portfolio-wrapper .portfolio-content img{
+    height: 165px;
+    width: 100%;
 }
 #first-img {
     height: 350px;
     background: #f1f1f1;
+}
+#first-img img {
+    height: 350px;
 }
 .portfolio-wrapper .portfolio-overlay{
 	position: absolute;
@@ -223,7 +239,8 @@ label{
 	transform: scale(1);
 }
 .portfolio-overlay i {
-    font-size: 35px;
+    font-size: 35px; 
+    color: #fff;
 }
 .portfolio-wrapper .portfolio-overlay{
 	color: #fff;
@@ -256,7 +273,7 @@ label{
 }
 .headline a:hover {
     text-decoration: none;
-    color: #303D4A;
+    opacity: 0.9;
 }
 /* END Plate*/
 
@@ -266,7 +283,7 @@ label{
     display: inline-block;
 }*/
 /* card */
-.portfolio-wrapper ul.filter{
+/*.portfolio-wrapper ul.filter{
 	list-style: none;
 	padding: 0;
 	margin-bottom: 30px;
@@ -289,7 +306,7 @@ label{
 	color: #fff;
     background-color: #1383BC;
     border-radius: 2px;
-}
+}*/
 .cards {
     -webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -298,6 +315,8 @@ label{
 	transition: all 0.2s ease-in-out;
     margin-bottom: 30px;
     border: 1px solid #f1f1f1;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
 }
 .cards:hover {
     box-shadow: 0px 0px 18px #ccc;
@@ -309,7 +328,13 @@ label{
     overflow: hidden;
 }  
 .cards-image img {
-    
+   height: 100%;
+   width: 100%;
+   border-bottom-left-radius: unset;
+   border-bottom-right-radius: unset;
+}
+#another {
+    height: 180px;
 }
 .cards-info{
 	background-color: #fff;
@@ -340,13 +365,18 @@ label{
 .box-image{
 	position: relative;   
     display: block;
-    height: 313px;
+    height: 227px;
     width: 100%;
     overflow: hidden;
+    margin-bottom: 35px;
+}
+.box-image img {
+    height: 100%;
+    width: 100%;
 }
 .box-item .box-content {
     display: block;
-    height: 313px;
+    height: 227px;
     color: #fff;
     position: relative;
     text-align: center;
@@ -374,6 +404,8 @@ label{
     bottom: 0;
     position: relative;
     margin-top: -45px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
 .box-content .content:hover {
     background-color: rgba(0,0,0,.7);
@@ -383,6 +415,7 @@ p.works {
     font-size: 16px;
     line-height: 45px;
     color: #fff;
+    margin-top: -8px;
 }
 .box-info{
 	background-color: #f5f5f5;
@@ -561,6 +594,10 @@ p.works {
     -o-transition: all 250ms ease-in-out;
     transition: all 250ms ease-in-out;
 }
+.section3 .section3-content img {
+    width: 100%;
+    height: 100%;
+}
 .section3 .section3-content .s3-content {
     height: 45px;
     padding: 0;
@@ -575,6 +612,8 @@ p.works {
     background-color: rgba(0,0,0,.5);
     position: absolute !important;
     bottom: 0;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
 p.section3-works {
     margin: 0;
@@ -697,17 +736,31 @@ p.section3-works {
 .video-content {
     margin-bottom: 35px;
 }
-.video-content img {
-    margin-bottom: 20px;
-}
 .content-left{
     float:left;
     width:160px;
     margin-right: 12px;
 }
+.content-left i {
+    position: absolute; 
+    font-size: 35px; 
+    color: #fff; 
+    line-height: 110px; 
+    margin-left: 66px;
+    opacity: 0.2;
+}
+.content-left i:hover {
+    opacity: 0.9;
+}
+.content-left img {
+    height: 100px;
+    overflow: hidden;
+    width: 100%;
+}
 .video-detals {
     opacity: 0.8;
     font-size: 12px;
+    margin-top: 10px;
 }
 .video-info {
     margin-left: 20px;
@@ -719,7 +772,7 @@ p.section3-works {
 }
 .video-share {
     padding: 15px 20px;
-    font-size: 15px;   
+    font-size: 16px;   
 }
 .video-share span {
     padding-right: 4px;
@@ -847,16 +900,39 @@ p.section3-works {
     margin: 1em 0;
     width: 100%;
 }
-.video-rank span i{
-    color: #337AB7;
-    padding-right: 8px;
-}
 .video-rank div {
     margin-bottom: 6px;
 }
 .video-rank span {
     font-size: 15px;
-    line-height: 1.75 !important;
+}
+.video-rank span i{
+    color: #337AB7;
+    padding-right: 8px;
+    margin-top: 3px;
+}
+.pic-content {
+    width: 260px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+    -webkit-text-overflow:ellipsis;
+    -moz-text-overflow:ellipsis;
+    white-space:nowrap;
+    display: inline-block;
+    font-size: 15px;
+}
+#pic2 {
+    width: 195px;
+}
+.pic-author {
+    color: #9A9A9A;
+    font-size: 13px !important;
+    float: right;
+    margin-top: 3px;
+}
+.pic-icon {
+    float: left;  
 }
 .v-date {
     color: #9A9A9A;
@@ -889,20 +965,24 @@ p.section3-works {
 }
 .pic-author {
     color: #9A9A9A;
-    font-size: 12px;
+    font-size: 13px !important;
     float: right;
 }
 /* END */
 
 /* Login */
 .fh5co-form {
-  padding: 30px 30px 10px 30px;
-  margin: 4em 0;
-  -webkit-box-shadow: -4px 7px 46px 2px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: -4px 7px 46px 2px rgba(0, 0, 0, 0.1);
-  -o-box-shadow: -4px 7px 46px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: -4px 7px 46px 2px rgba(0, 0, 0, 0.1);
-  background: #ffffff;
+    padding: 30px 30px 10px 30px;
+    margin: 3em 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border: 2px solid #eee;
+}
+.fh5co-form:hover {
+    box-shadow: 0px 0px 18px #ccc;
 }
 .login-info {
     width: 100%;
@@ -1020,11 +1100,17 @@ p.section3-works {
     box-shadow: 0px 0px 18px #ccc;
 }
 .works-image{
-	position: relative;
+    position: relative;
     height: 165px;
     width: 100%;
-    overflow: hidden;
+    overflow: hidden;   
 }  
+.works-image img {
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: unset;
+}
 .works-info{
 	padding: 15px;
     color: #737373;

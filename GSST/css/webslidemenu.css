@@ -248,6 +248,7 @@ a:focus {outline:none !important;}
 	-moz-transform: rotateX(-75deg);
 	-webkit-transform: rotateX(-75deg);
 	visibility:hidden;
+    margin-top: -1px;
 		}
 	
 .wsmenu-list li:hover > .wsmenu-submenu{
@@ -311,7 +312,7 @@ a:focus {outline:none !important;}
 	-o-transform: rotateX(-75deg);
 	-moz-transform: rotateX(-75deg);
 	-webkit-transform: rotateX(-75deg);
-	visibility:hidden;
+	visibility:hidden;   
 	}
 	
 .wsmenu-list li:hover > .megamenu{
@@ -350,8 +351,8 @@ a:focus {outline:none !important;}
 	border-right: 0 none !important;
 	text-align:left;
 	display:block;
-	line-height:22px;
-	padding:6px 17px;
+	line-height: 25px;
+    padding: 10px 30px;
 	text-transform:none; 
 	font-size:13px;
 	letter-spacing:normal;
@@ -395,8 +396,8 @@ a:focus {outline:none !important;}
 /* Default Theme */ 
 /*.wsmenu-list li:hover>a{background-color:rgba(0,0,0,0.08) !important; text-decoration:none;}*/
 /*.wsmenu-list > li > a:hover {background-color:rgba(0,0,0,0.08) !important;  text-decoration:none;}*/
-.wsmenu-list > li > a.active{background-color:rgba(0,0,0,0.08) !important; text-decoration:none; }
-.wsmenu-submenu > li > a:hover {background-color:rgba(0,0,0,0.08) !important; border-radius:0px!important; text-decoration:none;  text-decoration:none;}
+.wsmenu-list > li > a.active{background-color:#303D4A !important; text-decoration:none; color: #fff!important; }
+.wsmenu-submenu > li > a:hover {background-color:#303D4A !important;color: #fff!important; border-radius:0px!important; text-decoration:none;  text-decoration:none;}
 
 .typography-text { padding:0px 0px; font-size:15px;}
 .typography-text p{ text-align:justify; line-height:24px; color:#656565;}
@@ -724,8 +725,8 @@ a:focus {outline:none !important;}
 	padding:8px 0px 8px 18px;
 	color:#8E8E8E;}
 
-.mobile-sub .wsmenu-submenu li a:hover{ background-color:#e7e7e7  !important; color:#666666; text-decoration:underline; }
-.mobile-sub .wsmenu-submenu li:hover>a{ background-color:#e7e7e7 !important; color:#666666; }
+.mobile-sub .wsmenu-submenu li a:hover{ background-color:#e7e7e7  !important; color:#252B31!important;  }
+.mobile-sub .wsmenu-submenu li:hover>a{ background-color:#e7e7e7 !important; color:#252B31!important; }
 .mobile-sub .wsmenu-submenu li .wsmenu-submenu-sub li a{line-height:20px; height:36px; background-color:#e7e7e7 !important; border-bottom:none; padding-left:28px;}
 .mobile-sub .wsmenu-submenu li .wsmenu-submenu-sub li .wsmenu-submenu-sub-sub li a{line-height:20px; height:36px; background-color:#e7e7e7 !important; border-bottom:none !important; padding-left:38px; color:#8e8e8e;}
 

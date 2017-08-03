@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="css/animate.min.css" />
     <link href="css/webslidemenu.css" rel='stylesheet' type='text/css' />
     <link rel="stylesheet" href="css/bootstrap.min.css" />       
-    <link rel="stylesheet" type="text/css" href="css/jquery.vm-carousel.css" />
     <link href="css/video-js.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css" />
@@ -110,7 +109,17 @@
                             </li>    
                             <li>
                                 <span class="wsmenu-click"></span>
-                                <a href="#">平凡人语</a>
+                                <a href="#">平凡人语
+                                    <span class="arrow"></span>
+                                </a>
+                                <ul class="wsmenu-submenu">
+                                    <li>
+                                        <a href="#">广师博士</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">广师学霸</a>
+                                    </li>
+                                </ul>
                             </li>           
                         </ul>
                     </nav>

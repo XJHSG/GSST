@@ -76,7 +76,7 @@
             </div>
 
             <div class="portfolio-wrapper" >
-                <div class="row">
+                <%--<div class="row">
                     <div class="col-md-12">
 				        <ul class="filter"">  	
 					        <li class="active">科教资讯</li>	
@@ -90,12 +90,12 @@
                             <li>平凡人语</li>
 				        </ul>
 			        </div>
-                </div>
+                </div>--%>
 
                 <div class="portfolio-items">
 			        <div class="row">
                         <div class="lists">
-                            <div class="list">
+                            <div class="list animated fadeIn">
 				                <div class="col-md-3 col-sm-4">
 					                <div class="cards">
 						                <div class="cards-image">
@@ -455,7 +455,7 @@
                         <div class="list">
 				            <div class="col-md-4 col-sm-6">
 					            <div class="cards">
-						            <div class="cards-image">
+						            <div class="cards-image" id="another">
 							            <a href="#"><img class="img-responsive" src="images/img2.jpg" alt="" /></a>
 						            </div>
 						            <div class="cards-info">
@@ -701,17 +701,7 @@
     <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
     <script type="text/javascript" src="js/flexible-bootstrap-carousel.js"></script>
     <script src="js/wySilder.js" type="text/javascript"></script>
-    <script src="js/jquery.vm-carousel.js"></script>
     <script type="text/javascript">
-	    jQuery(function($){
-		      $('.vmcarousel-normal').vmcarousel({
-			     centered: false,
-			     start_item: 0,
-			     autoplay: false,
-			     infinite: false
-		      });
-	    });
-
 	    $(function () {
 	        $(".js-silder").silder({
 	            auto: true,//自动播放，传入任何可以转化为true的值都会自动轮播
